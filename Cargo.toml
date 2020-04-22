@@ -1,0 +1,15 @@
+[package]
+name = "mqtt_rs"
+version = "0.1.0"
+authors = ["lux <sr.Lux1nt@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fuse = ""
+tokio = { version = "0.2", features = ["full"] }
+tokio-util = { version = "0.3.1", features = ["codec"] }
+mqtt3 = ""
+bytes = ""
+futures = { version = "" }
